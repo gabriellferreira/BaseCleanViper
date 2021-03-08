@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">BaseCleanViper</string>
+
+    <string name="post_details_toolbar_title">Post n˚%s</string>
+    <string name="post_details_user_info">by %s (%s)</string>
+</resources>

@@ -1,0 +1,20 @@
+query GetPostList(
+    $options: PageQueryOptions
+) {
+    posts(options: $options) {
+        data {
+            ...Post
+        }
+        links {
+            prev{
+                ...PageLimitPair
+            }
+            next{
+                ...PageLimitPair
+            }
+            last{
+                ...PageLimitPair
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+  "schemaPath": "./app/src/main/graphql/schema.json",
+  "extensions": {
+    "endpoints": {
+      "Default GraphQL Endpoint": {
+        "url": "https://graphqlzero.almansi.me/api",
+        "headers": {
+          "Accept": "application/json",
+          "Content-type": "application/json"
+        },
+        "introspect": false
+      }
+    }
+  }
+}
